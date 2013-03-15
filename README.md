@@ -1,5 +1,7 @@
 # flickr venue
 
+![](https://s3-us-west-1.amazonaws.com/flickr-venue/screenshot-640.png)
+
 ### Add a Foursquare venue to your Flickr photo
 
 This extension allows you to choose a Foursquare venue to associate with your Flickr photo, similar to the Flickr iPhone app.
