@@ -1,6 +1,6 @@
 # flickr venue
 
-![](https://s3-us-west-1.amazonaws.com/flickr-venue/screenshot-640.png)
+[![](https://s3-us-west-1.amazonaws.com/flickr-venue/screenshot-640.png)](https://s3-us-west-1.amazonaws.com/flickr-venue/screenshot.png)
 
 ### Add a Foursquare venue to your Flickr photo
 
