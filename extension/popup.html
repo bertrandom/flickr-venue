@@ -1,15 +1,30 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Popup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="popup.css" rel="stylesheet" type="text/css">
   	<script src="jquery-1.9.1.min.js"></script>
-  	<script src="jquery-ui-1.10.1.custom.min.js"></script>
-  	<script src="4sqacplugin.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
   </head>
   <body>
-  	<h1 id="location"></h1>
-  	<input id="query" type="text" value="type here" />
-    <script src="popup.js"></script>
+  	<div class="container">
+      <div class="row">
+        <div class="span6">
+          <div id="venue" class="venue-autocomplete-row" style="display:none">
+            <img />
+            <span class="venue-name"></span>
+            <span class="venue-address"></span>
+            <div class="actions">
+              <button id="change-venue" class="btn" type="button">Change venue</button>
+              <button id="remove-venue" class="btn btn-link" type="button">Remove venue information</button>
+            </div>
+          </div>
+          <input id="query" name="query" type="text" placeholder="Start typing a venue name..." autocomplete="off" style="display:none" />
+        </div>
+      </div>
+  	</div>
+	<script src="popup.js"></script>
   </body>
 </html>

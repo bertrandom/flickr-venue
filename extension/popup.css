@@ -1,0 +1,47 @@
+body {
+	width: 500px;
+	height: 100px;
+}
+
+.container {
+  margin: 15px 15px 15px 15px;
+}
+
+#query {
+  width: 460px;
+}
+
+#venue .actions {
+  clear: left;
+  margin-top: 30px;
+}
+
+.venue-autocomplete-row {
+  height: 40px;
+  width: 432px;
+}
+
+.venue-autocomplete-row img {
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+span.venue-name {
+  display: block;
+  clear: right;
+}
+
+#venue span.venue-name {
+  font-weight: bold;
+}
+
+span.venue-address {
+  font-size: 12px;
+  float: left;
+  color: #777777;
+}
+
+li.active span.venue-address {
+  color: #DDDDDD;
+}

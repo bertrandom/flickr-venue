@@ -2,8 +2,8 @@
 
   "manifest_version": 2,
 
-  "name": "Foursquare Venue Selector",
-  "description": "Foursquare Venue Selector",
+  "name": "Flickr Venue",
+  "description": "Add a Foursquare venue to your Flickr photo",
   "version": "1.0",
 
   "background": {
@@ -11,14 +11,14 @@
   },
 
   "content_scripts": [
-    { "matches": ["http://www.flickr.com/photos/*"], "js": ["content_script.js"] }
+    { "matches": ["http://www.flickr.com/photos/*"], "js": ["jquery-1.9.1.min.js", "content_script.js"] }
   ],
 
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "http://www.flickr.com/"],
 
   "page_action" : {
     "default_icon" : "img/icon16.png",
-    "default_title" : "There's a flickr in this URL!",
+    "default_title" : "foursquare venue selector",
     "default_popup": "popup.html"
   },
 
