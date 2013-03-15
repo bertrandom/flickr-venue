@@ -1,4 +1,4 @@
-# Flickr Venue
+# flickr venue
 
 ### Add a Foursquare venue to your Flickr photo
 
