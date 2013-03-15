@@ -134,6 +134,7 @@ $(function() {
           nojsoncallback: 1
         }, function() {
           chrome.extension.getBackgroundPage().setVenue(foursquare_venue_id);
+          chrome.extension.getBackgroundPage().reloadTab();
         });
 
       }, 'json');
@@ -204,6 +205,7 @@ $(function() {
       }, function() {
 
         chrome.extension.getBackgroundPage().removeVenue();
+        chrome.extension.getBackgroundPage().reloadTab();
         chrome.tabs.getSelected(null, function(tab) {
             chrome.tabs.update(tab.id, { selected: true } )
         });
