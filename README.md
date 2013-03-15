@@ -1,19 +1,11 @@
-# pinboard keyboard shortcut
+# Flickr Venue
 
-![icon](https://s3.amazonaws.com/pinboard-keyboard-shortcut/icon128.png)
+### Add a Foursquare venue to your Flickr photo
 
-There are a lot of Pinboard Chrome Extensions and they all suck. Even the [official one](https://chrome.google.com/webstore/detail/pinboard-tools/dpaohcncbmkojcpcjaojcehdlnjfbjkl?hl=en). 
+This extension allows you to choose a Foursquare venue to associate with your Flickr photo, similar to the Flickr iPhone app.
 
-All I want to do is hit Command-D and have it open up a dialog to save the current page. 
+For the flickr venue icon to show up, the photo must be your photo and geotagged when the page loads.
 
-That's **all**.
+If you geotag it after the page has already loaded, you must refresh the page.
 
-I don't want to sync my bookmarks to my browser.
-
-I don't want to click on a toolbar button.
-
-I just want to hit Command-D and have it bookmark the page.
-
-That's what this does in 35 lines of code and most of those lines are empty.
-
-Click [here](https://chrome.google.com/webstore/detail/pinboard-keyboard-shortcu/cgponlekaepfdikdebmnklhfnjlbieng) to install the extension.
+Click [here](https://chrome.google.com/webstore/detail/flickr-venue/cdbpgjkjdieaeeamabfhhimkiiednibl) to install the extension.
